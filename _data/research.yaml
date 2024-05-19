@@ -1,0 +1,19 @@
+categories:
+
+  - data-filter: optimization
+    category-name: creating better algorithms
+
+  #- data-filter: framework
+  #  category-name: framework
+
+
+projects:
+
+  - title: Improving L-BFGS with Nesterov’s Momentum in R
+    #system-name: 
+    gif: assets/img/betteralgo.gif
+    status: Still developing 🟨
+    abstract-less: I am currently developing an enhanced Limited-memory Broyden–Fletcher–Goldfarb–Shanno (L-BFGS) optimization algorithm by incorporating Nesterov's Accelerated Gradient (NAG) momentum, implemented in R. By combining L-BFGS's efficiency with Nesterov's momentum for faster convergence, the hybrid algorithm aims to improve performance in high-dimensional optimization tasks. 
+    abstract-more: By modifying the current state-of-the-art C++ code and porting this code through Rcpp, I expect to see moderate performance gains while retaining the stability of L-BFGS.
+    tag: l-bfgs
+    category: optimization
