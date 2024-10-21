@@ -1,15 +1,12 @@
-title               : John Doe
+title               : Ernani Hazbolatow
 description         : >-                               # >- means to ignore newlines until "url:"
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Aspiring Quantitative Researcher. Interested in Asset Management, Machine Learning and Dynamical Systems. Currently looking for finance internship in London (Summer 2025).
 
 url                 : "https://vyshnav2255.github.io/Minimal-Portfolio-Website/"
 repository          : Vyshnav2255/Minimal-Portfolio-Website 
 
-email: example@xyz.xyz
-github_user: Vyshnav2255
-instagram: vyshnavgangadharan
-twitter: ThisIsVyshnav
-dribbble: vyshnav_
+email: ernanihazbolatow123@outlook.com
+github_user: NaniHazbolatow
 
 
 exclude:
