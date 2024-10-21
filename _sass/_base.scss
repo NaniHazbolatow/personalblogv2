@@ -106,3 +106,32 @@ h1 {
     background-position: right top; 
     background-size: auto 100vh;
 }
+
+/* Add CSS for the project section */
+.project-item {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 30px; /* Space between projects */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;  /* Ensure it doesn’t exceed the container width */
+    text-align: center;
+  }
+  
+  .project-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+  }
+  
+  .project-description {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  img.img-fluid {
+    max-width: 100%; /* Responsive images */
+    height: auto;
+    border-radius: 5px;
+  }
+  
