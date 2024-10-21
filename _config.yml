@@ -1,10 +1,20 @@
-# headers and icon 
-title: ernani hazbolatow
-info: clsjd'26 @ uva/vu
-icon-pic: assets/img/mandu_icon.png
+title               : John Doe
+description         : >-                               # >- means to ignore newlines until "url:"
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-# exclude these items when generated website in _site/index.html
+url                 : "https://vyshnav2255.github.io/Minimal-Portfolio-Website/"
+repository          : Vyshnav2255/Minimal-Portfolio-Website 
+
+email: example@xyz.xyz
+github_user: Vyshnav2255
+instagram: vyshnavgangadharan
+twitter: ThisIsVyshnav
+dribbble: vyshnav_
+
+
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
+- README.md
+- CONTRIBUTING.md
+- LICENSE
+- Gemfile
+- Gemfile.lock
