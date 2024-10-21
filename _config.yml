@@ -1,6 +1,10 @@
 title               : Ernani Hazbolatow
-description         : >-                               # >- means to ignore newlines until "url:"
-                      Aspiring Quantitative Researcher. Interested in Asset Management, Machine Learning and Dynamical Systems. Currently looking for finance internship in London (Summer 2025).
+description         :                                # >- means to ignore newlines until "url:"
+                      Aspiring Quantitative Researcher
+
+                      Interested in Asset Management, Machine Learning and Dynamical Systems. 
+                      
+                      Currently looking for finance internship in London (Summer 2025).
 
 url                 : "https://vyshnav2255.github.io/Minimal-Portfolio-Website/"
 repository          : Vyshnav2255/Minimal-Portfolio-Website 
