@@ -120,38 +120,48 @@ h1 {
   }
   
   /* Ensure projects are stacked below landing */
-  .project-item {
-    background-color: #f8f9fa;
+  .project-container {
+    display: flex;
+    align-items: center;
     padding: 20px;
-    margin-bottom: 30px; /* Space between projects */
+    border: 1px solid #ddd;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 100%; /* Ensure it doesn’t exceed the container width */
-    text-align: center;
-  }
-  
-  .project-title {
-    font-size: 20px;
-    font-weight: 700;
-    margin-top: 15px;
-  }
-  
-  .project-description {
-    font-size: 16px;
-    margin-top: 10px;
-  }
-  
-  img.img-fluid {
-    max-width: 100%; /* Ensure responsive images */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.project-image {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.project-image img {
+    display: block;
+    max-width: 100px; /* Adjust size as needed */
     height: auto;
+}
+
+.project-details {
+    flex-grow: 1;
+}
+
+.project-details h2 {
+    margin: 0 0 10px;
+}
+
+.view-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
     border-radius: 5px;
-  }
-  
-  /* Margin for Projects section */
-  .my-5 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
+    cursor: pointer;
+}
+
+.view-button:hover {
+    background-color: #0056b3;
+}
+
   
 /* Container for the logo and message */
 .logo-container {
