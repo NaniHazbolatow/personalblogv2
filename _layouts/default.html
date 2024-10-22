@@ -17,6 +17,16 @@
   
     {% include footer.html %}
 
+    <script>
+      function showMessage() {
+        const message = document.getElementById('logo-message');
+        if (message.classList.contains('d-none')) {
+          message.classList.remove('d-none');  // Show the message
+        } else {
+          message.classList.add('d-none');  // Hide the message
+        }
+      }
+    </script>
 </body>
 
 </html>

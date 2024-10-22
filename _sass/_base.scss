@@ -106,14 +106,22 @@ h1 {
     background-position: right top; 
     background-size: auto 100vh;
 }
-
-.project-item {
+/* General container height fix for stacking */
+.height-100 {
+    min-height: 100vh; /* Ensures each section takes at least full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+  }
+  
+  /* Ensure projects are stacked below landing */
+  .project-item {
     background-color: #f8f9fa;
     padding: 20px;
-    margin-bottom: 30px; /* Space between each project */
+    margin-bottom: 30px; /* Space between projects */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 100%;  /* Ensure it doesn’t exceed the container width */
+    max-width: 100%; /* Ensure it doesn’t exceed the container width */
     text-align: center;
   }
   
@@ -129,9 +137,14 @@ h1 {
   }
   
   img.img-fluid {
-    max-width: 100%; /* Make sure images are responsive */
+    max-width: 100%; /* Ensure responsive images */
     height: auto;
     border-radius: 5px;
   }
   
+  /* Margin for Projects section */
+  .my-5 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
   
