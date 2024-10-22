@@ -3,7 +3,10 @@
     <div class="row height-100">
     <div class="col col-md-6 col-lg-5 col-12 height-100 d-flex align-items-md-center blurbg">
         <div class="content text-center text-md-right ">
-            <img class="logo" src="Images/logo.svg" alt="Logo">
+            <div class="logo-container">
+                <img id="logo" class="logo" src="Images/logo.svg" alt="Logo" onclick="showMessage()">
+                <span id="logo-message" class="logo-message d-none">Žiema, žiema, bėk iš kiemo!</span>
+              </div>              
                 <h1>{{ site.title }}</h1>
                 <span class="text description">
                     {{ site.description }}
