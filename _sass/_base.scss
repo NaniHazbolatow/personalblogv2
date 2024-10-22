@@ -148,3 +148,38 @@ h1 {
     margin-bottom: 50px;
   }
   
+
+  /* Container for the logo and message */
+.logo-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Message bubble styling */
+  .logo-message {
+    background-color: #F0F0F0;
+    border-radius: 18px;
+    padding: 10px 15px;
+    margin-left: 15px;
+    font-size: 14px;
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 70px;
+    transform: translateY(-50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+  
+  /* Tail for the message bubble */
+  .logo-message::after {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #F0F0F0 transparent
+  }  
