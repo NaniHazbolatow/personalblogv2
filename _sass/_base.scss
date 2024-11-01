@@ -111,18 +111,20 @@ h1 {
     background-position: right top; 
     background-size: auto 100vh;
 }
-/* General container height fix for stacking */
+/* Adjusted container height to allow flexibility */
 .height-100 {
-    min-height: 100vh; /* Ensures each section takes at least full viewport height */
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center content vertically */
-  }
-  
-  /* Ensure projects are stacked below landing */
-  .project-container {
-    display: flex;
-    align-items: center;
+    justify-content: flex-start; /* Start from the top */
+}
+
+/* Updated .project-container to enable flexible layout */
+.project-container {
+    display: grid; /* Allows easier control over layout */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    align-items: start;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
