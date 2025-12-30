@@ -262,6 +262,21 @@ code {
     color: #333333;
 }
 
+/* The bundle injects a UI panel; hide it site-wide */
+#panel { display: none !important; }
+
+/* Safety: keep the injected canvas as a non-interactive background */
+body > canvas {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  pointer-events: none !important;
+}
+
+/* If the canvas ends up behind the page background, force it into view */
+body > canvas { z-index: 0 !important; }
+body { position: relative; }
 
 /* Dark theme styles for pager button */
 .dark-theme .isotope-pager .pager {
